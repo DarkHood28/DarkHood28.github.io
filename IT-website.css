@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.task-bar {
+	background-color: #008F8C;
+	width: 100%;
+	height: 120px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+
+body {
+	background-color: #ffb03a;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+header {
+	display: flex;
+	background-color: rgb(238, 61, 179);
+	width: 100%;
+	height: 89px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	width: 350px;
+}
+
+.logo img {
+	width: 90px;
+	margin-left: 35px;
+	cursor: pointer;
+}
+
+header h1 {
+	background-image: linear-gradient(45deg, rgb(65, 49, 211), #e00040);
+	padding: 8px 10px;
+	color: rgb(240, 129, 203);
+}
+
+.donate {
+	margin-right: 35px;
+}
+
+header button {
+    width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+	color: rgb(238, 61, 179);
+	margin-right: 10px;
+}
+
+button:hover {
+	box-shadow: 8px 10px 0px orange;
+}
+
+.title-box-1 {
+	background-color: #D9E8F5;
+	width: 520px;
+	height: 500px;
+	display: block;
+	margin-top: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title-box-image-1 {
+	width: 520px;
+	object-fit: cover;
+}
+
+.title-box-text ul li {
+	list-style: none;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.title-box-text ul li a {
+	cursor: pointer;
+	font-size: 50px;
+	color: rgb(238, 61, 179);
+	transition: color 0.3s;
+}
+
+.title-box-text ul li a:hover {
+	color: orangered;
+}
+
+.text-1 {
+	background-image: linear-gradient(to right, purple , orange);
+	width: 1200px;
+	height: 180px;
+	margin-top: 120px;
+	margin-bottom: 150px;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.text-1 p {
+	font-size: 40px;
+	font-family: impact;
+	color: #b9c3f3;
+}
+
+.text-2 {
+	font-family: roboto;
+	font-size: 30px;
+	margin-left: 310px;
+	margin-bottom: 7px;
+	color: rgb(238, 61, 179);
+	font-weight: bold;
+}
+
+.Vice-city {
+	width: 580px;
+	height: 397px;
+	border-radius: 15px;
+	display: inline-block;
+	margin-left: 310px;
+}
+
+.Vice-city-map {
+	width: 300px;
+	height: 397px;
+	object-fit: cover;
+	border-radius: 15px;
+	display: inline-block;
+	margin-left: 30px;
+	right: 100px;
+}
+
+.info-box-1 {
+	width: 300px;
+	height: 85px;
+	background-color: #E5EDFF;
+	border-radius: 15px;
+	display: inline-block;
+	margin-bottom: 22px;
+}
+
+.info-box-1 p {
+	margin: 0;
+	padding: 10px;
+	font-size: 14px;
+	font-family: arial;
+}
+
+.info-box-1 p .span1 {
+	font-weight: bold;
+}
+
+.info-box-1 p a {
+	cursor: pointer;
+	text-decoration: underline;
+	color: rgb(70, 70, 255);
+}
+
+.info-box-2 {
+	width: 162px;
+	margin-left: 68px;
+}
+
+.l {
+	display: inline-block;
+	margin-left: 30px;
+	margin-bottom: 200px;
+}
+
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: rgb(226, 70, 70);
+	text-align: center;
+	padding: 20px 0px;
+	margin-top: auto;
+}
+
+footer li {
+	list-style: none;
+}
+
+footer li {
+	list-style: none;
+	padding: 10px;
+}
+
+footer li a {
+	text-decoration: none;
+	color: white;
+}
+
+footer li a:hover {
+	text-decoration: underline;
+}
+
+.footer-title {
+	color: white;
+	font-style: italic;
+	font-size: 25px;
+}
+
+footer p {
+	color: white;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+footer p span {
+	color: gold;
+	font-weight: bold;
+}
